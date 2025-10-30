@@ -3,4 +3,6 @@ services:
     name: one-word-identity
     env: python
     buildCommand: ""
-    startCommand: "python backend/app.py"
+    startCommand: python backend/app.py
+    plan: free
+    autoDeploy: true
