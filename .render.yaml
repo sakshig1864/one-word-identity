@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: one-word-identity
+    env: python
+    buildCommand: ""
+    startCommand: "python backend/app.py"
